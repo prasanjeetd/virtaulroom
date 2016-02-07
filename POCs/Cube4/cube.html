@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cube</title>
+    <link href="cube.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js" type="text/javascript" ></script>
+    <script src="cube.js" type="text/javascript"></script>
+    <script src="http://cdn.rawgit.com/vasanthk/MirrorRoom-CSS-3D/master/js/animate3d.js" type="text/javascript"></script>
+
+</head>
+<body>
+   <div id="screen">
+    <div id="scene">
+        <div id="loading">Loading...</div>
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg" data-transform="translateZ(-1500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="translateZ(-1000px) rotateY(-90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="translateZ(-1000px) rotateY(90deg) translateZ(-500px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/floor-big.jpg"
+             data-transform="translateZ(-1000px) rotateX(90deg) translateZ(-300px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/ceiling.jpg"
+             data-transform="translateZ(-1000px) rotateX(-90deg) translateZ(-300px)">
+
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="translateX(-1000px) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="translateX(-1000px) rotateY(90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="translateX(-1000px) rotateY(180deg) translateZ(-500px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/floor-big.jpg"
+             data-transform="translateX(-1000px) rotateX(90deg) translateZ(-300px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/ceiling.jpg"
+             data-transform="translateX(-1000px) rotateX(-90deg) translateZ(-300px)">
+
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateZ(-1500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateZ(-1000px) rotateY(-90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateZ(-1000px) rotateY(90deg) translateZ(-500px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/floor-big.jpg"
+             data-transform="rotateY(180deg) translateZ(-1000px) rotateX(90deg) translateZ(-300px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/ceiling.jpg"
+             data-transform="rotateY(180deg) translateZ(-1000px) rotateX(-90deg) translateZ(-300px)">
+
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateX(-1000px) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateX(-1000px) rotateY(90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.jpg"
+             data-transform="rotateY(180deg) translateX(-1000px) rotateY(180deg) translateZ(-500px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/floor-big.jpg"
+             data-transform="rotateY(180deg) translateX(-1000px) rotateX(90deg) translateZ(-300px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/ceiling.jpg"
+             data-transform="rotateY(180deg) translateX(-1000px) rotateX(-90deg) translateZ(-300px)">
+
+        <img class="s" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/statue.png" data-transform="translateZ(-1000px)">
+        <img class="s" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/statue.png"
+             data-transform="rotateY(180deg) translateZ(-1000px)">
+        <img class="s" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/statue.png"
+             data-transform="rotateY(90deg) translateZ(-1000px)">
+        <img class="s" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/statue.png"
+             data-transform="rotateY(-90deg) translateZ(-1000px)">
+
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.png" data-transform="translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.png"
+             data-transform="rotateY(-90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.png"
+             data-transform="rotateY(90deg) translateZ(-500px)">
+        <img src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/wall-mirror.png"
+             data-transform="rotateY(180deg) translateZ(-500px)">
+
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/floor.jpg"
+             data-transform="rotateX(90deg) translateZ(-300px)">
+        <img class="f" src="https://raw.githubusercontent.com/vasanthk/MirrorRoom-CSS-3D/master/images/ceiling.jpg"
+             data-transform="rotateX(-90deg) translateZ(-300px)">
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+1. How the actual size of the room and application's room ratio will be calculated?
+2. How the ratio between room and its object will be calculated?
+3. What will be the default perspective of the room?
+4. How the object will be retain its position when adjusted by the user by moving?
+
